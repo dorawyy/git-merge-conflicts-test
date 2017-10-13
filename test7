@@ -1,0 +1,13 @@
+This is file test7 for testing issue#7:
+## Scenario abstraction 
+* developer1 worked on two branches (`Feature1 branch` and `master branch` of the repo) (`Feature1 branch` was derived from `master branch`):
+* developer1 cloned the remote repo, and fetched the two remote-tracking branch locally:
+     * --> `master` branch
+     * --> `Feature1` branch
+* on `master` branch, edited `test7` file, add, commit;
+* on `Feature1` branch, no change, no commit;
+* checkout `master` branch, merge `Feature1` branch; 
+* what would happen about merging?
+* (after local testing, `push` all changes back to remote repo)
+
+
