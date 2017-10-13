@@ -3,3 +3,6 @@ This file is created to test scenario2:
 * developer1 commit in this file line x
 * developer2 commit in this file line y
 * developer1 push commit, what would happen when developer2 push commit
+
+
+developer2 change in line8 on master branch, repo2
