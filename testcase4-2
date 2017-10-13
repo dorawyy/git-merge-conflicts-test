@@ -1,7 +1,0 @@
-This is the test file for the testcase 4-2:
-* developer1 edited this file (testcase4-2), committed
-* developer2 deleted this file (testcase4-2), committed
-* developer1 pushed to remote
-* what would happen if developer2 pushed to remote directly?
-
-
