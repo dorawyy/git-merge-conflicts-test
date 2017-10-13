@@ -9,4 +9,6 @@ This is test5 file, for testing issue#5:
 * checkout `Master` branch, merge `Feature1` branch; 
 * what would happen about merging?
 
+--> this is edit from Feature1 branch
+
 
