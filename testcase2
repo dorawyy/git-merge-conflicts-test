@@ -1,5 +1,5 @@
 This file is created to test scenario2: 
-* developer1 and developer2 work on the same branch of the same repo simultaneously
+* [developer1 modified line2] developer1 and developer2 work on the same branch of the same repo simultaneously
 * developer1 commit in this file line x
 * developer2 commit in this file line y
 * [developer2 modified line5] developer1 push commit, what would happen when developer2 push commit
