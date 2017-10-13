@@ -10,4 +10,4 @@ This is file test7 for testing issue#7:
 * what would happen about merging?
 * (after local testing, `push` all changes back to remote repo)
 
-
+--> this is edited from master branch
