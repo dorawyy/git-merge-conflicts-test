@@ -4,6 +4,6 @@ This file is created to test scenario2:
 * developer2 commit in this file line y
 * developer1 push commit, what would happen when developer2 push commit
 
+# startpoint for testcase2
 
-developer1 change in line7 on master branch, repo1
 
