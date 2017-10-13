@@ -1,0 +1,12 @@
+This is test5 file, for testing issue#5:
+* developer1 worked on two branches (`Feature1 branch` and `Master branch` of the repo) 
+  (`Feature1 branch` was derived from `Master branch`):
+* developer1 cloned the remote repo, and fetched the two remote-tracking branch locally:
+     * --> `Master` branch
+     * --> `Feature1` branch
+* on `Feature1` branch, edited `test5` file, add, commit;
+* on `Master` branch, no change, no commit;
+* checkout `Master` branch, merge `Feature1` branch; 
+* what would happen about merging?
+
+
