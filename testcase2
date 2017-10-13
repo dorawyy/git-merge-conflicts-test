@@ -5,4 +5,5 @@ This file is created to test scenario2:
 * developer1 push commit, what would happen when developer2 push commit
 
 
-developer2 change in line8 on master branch, repo2
+developer1 change in line7 on master branch, repo1
+
