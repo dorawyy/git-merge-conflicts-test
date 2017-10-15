@@ -1,2 +1,8 @@
 This is the test file for testcase11. [edit on rollback1 branch] 
 [rollback2 branch --> edit]
+
+--> new edit after merging
+* edited on rollback1
+* rollback1: add, commit
+* checkout rollback2
+* rollback2: git merge rollback1
