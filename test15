@@ -10,4 +10,4 @@ This is test file test14, for test case 14
 * however the developer would like to rebase `Feature3` branch -- `git rebase Feature2`
 * What would happen?
 
-
+Feature2 Branch --> new commit
