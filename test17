@@ -9,7 +9,7 @@ This is test file test17, for test case 17
 * however the developer would like to rebase `Feature3` branch -- `git rebase Feature2`
 * What would happen?
 
-[Feature2 branch, edit 2] --> line12, edit 2
+[Feature2 branch, edit 2] --> line12, edit 2  && [Feature3 branch, edit1] --> line 12
 
 
 
