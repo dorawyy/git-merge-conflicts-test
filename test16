@@ -1,0 +1,15 @@
+This is test file test16, for test case 16
+
+## Scenario abstract
+* developer1 worked on two branches (`Feature2` and `Feature3`), `Feature3` was derived from `Feature2`;
+* after `Feature3` branch was created,
+    * `Feature3` edited line x of file `test16`, commit
+    * `Feature2` edited line x of file `test16`, commit
+* now developer1 would like to merge `Feature3` back to `Feature2`
+* however the developer would like to rebase `Feature3` branch -- `git rebase Feature2`
+* What would happen?
+
+
+
+
+
