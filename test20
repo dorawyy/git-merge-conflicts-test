@@ -1,0 +1,14 @@
+====== test case 20: Different branches inside one repo, only Alice commits ==== 
+
+## Scenario abstract
+
+* `PR2 branch` _(Pull-Request-2 branch)_ was derived from `PR1 branch` _(Pull-Request-1 branch)_ 
+* Alice and Bob worked on the same repo, Alice(`PR2 branch`), Bob(`PR1 branch`)
+* Alice made commits on `PR2 branch` locally
+* Alice `git push origin PR2`
+* Bob made no change on PR1
+* Alice made a pull request to Bob:  **FROM**: repo1, PR2 --> **TO**: repo1, PR1
+* What would Bob do and meet?
+    * What if he merge directly
+    * What if he squash commits then merge?
+    * What if he rebase then merge?
