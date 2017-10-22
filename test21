@@ -1,0 +1,19 @@
+### **Exploration question:** 
+_What would happen if adding more commits after the pull request is made?_
+* Intro: `PR1` works as `base branch`, while `PR2` works as `head branch`
+* Alice worked on `PR2` branch, Bob worked on `PR1` branch
+* Alice made 1 commit on `PR2`, pushed
+* Alice opened a pull request `PR2 --> PR1`
+* Alice made more commits on `PR2`, pushed
+* what would happen inside the pull request?
+
+
+
+
+
+
+
+
+
+
+
