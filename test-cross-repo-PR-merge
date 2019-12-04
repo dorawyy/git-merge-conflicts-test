@@ -3,3 +3,5 @@ The scenario is:
 1. the forked repo has 3 commits on top of original repo master branch
 2. then create a PR from form to original 
 3. merge PR (normal merge) to the original repo see what will happen 
+
+this line is added to create another test commit 
