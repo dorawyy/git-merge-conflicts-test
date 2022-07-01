@@ -6,7 +6,10 @@ public class Test {
   
   static {
     
-    if(){ }
+  }
+  
+  public void getString (){
+     int i; 
   }
   
   
