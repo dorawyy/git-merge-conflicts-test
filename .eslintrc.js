@@ -37,7 +37,7 @@
           {
             "ignoreDestructuring": false,
             "ignoreGlobals": false, 
-            "ignoreImports", false
+            "ignoreImports": false
           }
          ]
        },
@@ -75,7 +75,7 @@
         "no-func-assign": "error",   
         "no-inner-declarations": ["error", "functions"],
         "no-invalid-regexp": "error", 
-        "no-irregular-whitespace": ["error", {"skipComments": false, "skipRegExps": false, "skipStrings": true, "skipTemplates": false}]
+        "no-irregular-whitespace": ["error", {"skipComments": false, "skipRegExps": false, "skipStrings": true, "skipTemplates": false}],
         "no-iterator": "error", 
         "no-loop-func": "error", 
         "no-mixed-spaces-and-tabs": "error", 
@@ -103,6 +103,6 @@
         "semi": ["error", "always"], 
         "use-isnan": ["error", {"enforceForIndexOf": false, "enforceForSwitchCase": true}],
         "valid-typeof": ["error", {"requireStringLiterals": false}],
-        "wrap-iife": ["error", {"outside", "functionPrototypeMethods": false}]
+        "wrap-iife": ["error", {"outside", "functionPrototypeMethods": false}]},
     "ignorePatterns": ["src/frontend/generated/*"]
 }
