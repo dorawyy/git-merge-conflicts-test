@@ -22,12 +22,6 @@
   <property name="charset" value="UTF-8"/>
   <property name="fileExtensions" value="java, properties, xml"/>
           
-  <module name="LineLength">
-    <property name="fileExtensions" value="java"/>
-    <property name="max" value="100"/>
-    <property name="ignorePattern" value="^package.*|^import.*|a href|href|http://|https://|ftp://"/>
-  </module>
-
   <module name="TreeWalker">
     <module name="AvoidStarImport"/>
     <module name="UnusedImports"/>
