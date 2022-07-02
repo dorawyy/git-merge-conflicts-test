@@ -1,4 +1,5 @@
-import java.util.List; 
+package example;
+
 import java.io.*;
 
 public class Test {
