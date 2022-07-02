@@ -6,11 +6,12 @@ public class Test {
   // hi this is an example Java class to test Codacy 
   
   static {
-    
+    // empty initializer 
   }
   
-  public void getString (){
-     int i; 
+  public int getInt (){
+     int i = 2; 
+    return i; 
   }
   
   
