@@ -22,29 +22,10 @@
         "allowNumber": false
       }
     ],
-    "arrow-parens": [
-      "error",
-      {
-        "always",
-        "requireForBlockBody": true
-      }
-    ],
-    "arrow-spacing": [
-      "error",
-      {
-        "before": true,
-        "after": true
-      }
-    ],
+    "arrow-parens": ["error", "always"],
+    "arrow-spacing": "error",
     "block-scoped-var": "error",
-    "camelcase": [
-      "error",
-      {
-        "ignoreDestructuring": false,
-        "ignoreGlobals": false,
-        "ignoreImports": false
-      }
-    ],
+    "camelcase": "error",
     "complexity": [
       "error",
       {
@@ -52,34 +33,16 @@
       }
     ],
     "curly": "error",
-    "eqeqeq": [
-      "error",
-      "smart"
-    ],
+    "eqeqeq": ["error", "smart"],
     "generator-star-spacing": "error",
     "guard-for-in": "error",
-    "new-cap": [
-      "error",
-      {
-        "capIsNew": true,
-        "newIsCap": true,
-        "properties": true
-      }
-    ],
+    "new-cap": "error",
     "no-caller": "error",
     "no-class-assign": "error",
-    "no-cond-assign": [
-      "error",
-      "except-parens"
-    ],
+    "no-cond-assign": ["error", "except-parens"],
     "no-console": "error",
     "no-const-assign": "error",
-    "no-constant-condition": [
-      "error",
-      {
-        "checkLoops": true
-      }
-    ],
+    "no-constant-condition": "error",
     "no-control-regex": "error",
     "no-debugger": "error",
     "no-delete-var": "error",
@@ -87,44 +50,18 @@
     "no-dupe-class-members": "error",
     "no-dupe-keys": "error",
     "no-duplicate-case": "error",
-    "no-empty": [
-      "error",
-      {
-        "allowEmptyCatch": false
-      }
-    ],
+    "no-empty": "error",
     "no-empty-character-class": "error",
-    "no-eval": [
-      "error",
-      {
-        "allowIndirect": false
-      }
-    ],
+    "no-eval": "error",
     "no-ex-assign": "error",
     "no-extend-native": "error",
-    "no-extra-boolean-cast": [
-      "error",
-      {
-        "enforceForLogicalOperands": false
-      }
-    ],
+    "no-extra-boolean-cast": "error",
     "no-extra-semi": "error",
     "no-fallthrough": "error",
     "no-func-assign": "error",
-    "no-inner-declarations": [
-      "error",
-      "functions"
-    ],
+    "no-inner-declarations": ["error", "functions"],
     "no-invalid-regexp": "error",
-    "no-irregular-whitespace": [
-      "error",
-      {
-        "skipComments": false,
-        "skipRegExps": false,
-        "skipStrings": true,
-        "skipTemplates": false
-      }
-    ],
+    "no-irregular-whitespace": "error",
     "no-iterator": "error",
     "no-loop-func": "error",
     "no-mixed-spaces-and-tabs": "error",
@@ -133,61 +70,21 @@
     "no-new": "error",
     "no-obj-calls": "error",
     "no-octal": "error",
-    "no-redeclare": [
-      "error",
-      {
-        "builtinGlobals": true
-      }
-    ],
+    "no-redeclare": "error",
     "no-regex-spaces": "error",
     "no-script-url": "error",
     "no-sparse-arrays": "error",
     "no-this-before-super": "error",
-    "no-undef": [
-      "error",
-      {
-        "typeof": false
-      }
-    ],
+    "no-undef": "error",
     "no-undefined": "error",
     "no-unreachable": "error",
     "no-use-before-define": "error",
     "object-shorthand": "error",
-    "quotes": [
-      "error",
-      {
-        "allowTemplateLiterals": false,
-        "avoidEscape": false,
-        "double"
-      }
-    ],
+    "quotes": "error",
     "require-yield": "error",
-    "semi": [
-      "error",
-      "always"
-    ],
-    "use-isnan": [
-      "error",
-      {
-        "enforceForIndexOf": false,
-        "enforceForSwitchCase": true
-      }
-    ],
-    "valid-typeof": [
-      "error",
-      {
-        "requireStringLiterals": false
-      }
-    ],
-    "wrap-iife": [
-      "error",
-      {
-        "outside",
-        "functionPrototypeMethods": false
-      }
-    ]
-  },
-  "ignorePatterns": [
-    "src/frontend/generated/*"
-  ]
+    "semi": "error",
+    "use-isnan": "error",
+    "valid-typeof": "error",
+    "wrap-iife": "error"
+  }
 }
