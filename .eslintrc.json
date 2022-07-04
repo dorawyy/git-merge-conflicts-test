@@ -125,15 +125,15 @@
 		"use-isnan": "error",
 		"valid-typeof": "error",
 		"wrap-iife": "error",
-		"security/detect-disable-mustache-escape": true,
-		"security/detect-eval-with-expression": true,
-		"security/detect-no-csrf-before-method-override": true,
-		"security/detect-non-literal-fs-filename": true,
-		"security/detect-non-literal-regexp": true,
-		"security/detect-non-literal-require": true,
-		"security/detect-object-injection": true,
-		"security/detect-possible-timing-attacks": true,
-		"security/detect-pseudoRandomBytes": true,
-		"security/detect-unsafe-regex": true
+		"security/detect-disable-mustache-escape": "error",
+		"security/detect-eval-with-expression": "error",
+		"security/detect-no-csrf-before-method-override": "error",
+		"security/detect-non-literal-fs-filename": "error",
+		"security/detect-non-literal-regexp": "error",
+		"security/detect-non-literal-require": "error",
+		"security/detect-object-injection": "error",
+		"security/detect-possible-timing-attacks": "error",
+		"security/detect-pseudoRandomBytes": "error",
+		"security/detect-unsafe-regex": "error"
 	}
 }
