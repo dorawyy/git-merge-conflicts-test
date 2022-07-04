@@ -9,8 +9,8 @@
 
 <module name = "Checker">
   <property name="charset" value="UTF-8"/>
-  <property name="fileExtensions" value="java, properties, xml"/>
-          
+  <property name="fileExtensions" value="java"/>
+  
   <module name="TreeWalker">
     <module name="UnusedImports"/>
   </module>
