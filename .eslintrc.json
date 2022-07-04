@@ -1,19 +1,60 @@
 {
-  "root": true,
   "extends": [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:@typscript-eslint/eslint-recommended"
+    "standard",
+    "plugin:security/recommended"
   ],
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "project": [
-      "./tsconfig.json"
-    ]
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true,
+    "commonjs": true,
+    "jquery": true,
+    "phantomjs": true,
+    "jasmine": true,
+    "mocha": true,
+    "amd": true,
+    "worker": true,
+    "qunit": true
   },
-  "plugins": [
-    "@typescript-eslint"
+  "plugins": ["eslint-plugin-backbone", "eslint-plugin-compat", "eslint-plugin-cypress", "eslint-plugin-ember-suave", "eslint-plugin-ember", "eslint-plugin-hapi", "eslint-plugin-i18n-json", "eslint-plugin-node", "eslint-plugin-playwright", "eslint-plugin-prettier-vue", "eslint-plugin-react", "eslint-plugin-react-hooks", "eslint-plugin-redux-saga", "eslint-plugin-regexp", "eslint-plugin-security", "eslint-plugin-vue"],
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "requireConfigFile": false
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/*.ts",
+        "**/*.tsx"
+      ],
+      "extends": [
+        "standard",
+        "plugin:security/recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended"
+      ],
+      "parser": "@typescript-eslint/parser",
+      "parserOptions": {
+        "sourceType": "module"
+      }
+    }
   ],
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [
+        ".ts",
+        ".tsx"
+      ]
+    },
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true,
+      }
+    },
+    "jest": {
+      "version": 26
+    }
+  },
   "rules": {
     "@typescript-eslint/strict-boolean-expressions": [
       2,
@@ -85,6 +126,16 @@
     "semi": "error",
     "use-isnan": "error",
     "valid-typeof": "error",
-    "wrap-iife": "error"
+    "wrap-iife": "error",
+    "security/detect-disable-mustache-escape": true,
+    "security/detect-eval-with-expression": true,
+    "security/detect-no-csrf-before-method-override": true,
+    "security/detect-non-literal-fs-filename": true,
+    "security/detect-non-literal-regexp": true,
+    "security/detect-non-literal-require": true,
+    "security/detect-object-injection": true,
+    "security/detect-possible-timing-attacks": true,
+    "security/detect-pseudoRandomBytes": true,
+    "security/detect-unsafe-regex": true
   }
 }
